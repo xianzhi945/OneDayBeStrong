@@ -9,10 +9,8 @@ public class AlternatePrint1 {
         new Thread(()->{
             synchronized (mtx){
                 while(i<end){
-
                         System.out.println(Thread.currentThread().getName()+" 打印 "+i);
                         i++;
-
                     mtx.notify();
                     try{
                         if(i!=end) {
@@ -20,9 +18,7 @@ public class AlternatePrint1 {
                         }
                        // Thread.sleep(1000);
                     }catch (InterruptedException e){
-
                     }
-
                 }
             }
         }).start();
