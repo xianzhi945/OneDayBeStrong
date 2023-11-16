@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.PriorityQueue;
 
 public class Account {
@@ -53,6 +55,8 @@ public class Account {
         }
         PriorityQueue<Integer> pq=new PriorityQueue<>(1, (o1, o2) -> 0);
 
+        List<int[]> list=new ArrayList<>();
+        System.out.println(list.stream().toArray());
     }
 
 

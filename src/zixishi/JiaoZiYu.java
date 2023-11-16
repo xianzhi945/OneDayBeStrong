@@ -10,10 +10,10 @@ public class JiaoZiYu {
     private static double shouxufei=0.006;
 
     public static void calculate(){
-        jiaoIn=11536.9;;
-        jiaoOut=4016.5;
-        zhouIn=8312.9;
-        zhouOut=406.1+3784.2;
+        jiaoIn=7544.5;;
+        jiaoOut=2918.7;
+        zhouIn=7546.6;
+        zhouOut=1439.8;
         
 
         double totalIn=jiaoIn+zhouIn;

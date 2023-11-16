@@ -38,6 +38,7 @@ public class Salary {
         map.put("2023.6.1-2023.6.30",10561+1405.8+326.8);
         map.put("2023.7.1-2023.7.30",3234+9497+1793.07-180);
         map.put("2023.8.1-2023.8.31",8312.9+2259+192.77-25);
+        map.put("2023.9.1-2023.9.30",7546.6+474.8+480.8-1097);
 //        map.put("real",10561+1405.8+326.8);
         for(String str:map.keySet()){
             System.out.println(str+"   "+ StringFormatter.format("%.2f",map.get(str)).getValue()+"    "+StringFormatter.format("%.2f",calculate(map.get(str))).getValue());
